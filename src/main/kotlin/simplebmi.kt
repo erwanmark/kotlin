@@ -1,9 +1,9 @@
 fun main(args: Array<String>) {
 
     println("Enter your height in cm: ")
-    var num1: Int = readLine()!!.toInt()
+    var num1: Float = readLine()!!.toFloat()
     println("Enter your weight in kg: ")
-    var num2: Int = readLine()!!.toInt()
+    var num2: Float = readLine()!!.toFloat()
 
 
     var result = num1 /(num2 /100) *2
