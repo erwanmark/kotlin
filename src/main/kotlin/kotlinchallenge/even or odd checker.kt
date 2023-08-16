@@ -2,23 +2,20 @@ package kotlinchallenge
 
 fun main(args: Array<String>) {
 
-    println("Enter first number")
-    var num1:Int = readLine()!!.toInt()
-    println("Enter second num")
-    var num2:Int = readLine()!!.toInt()
+    println("Enter any number")
+    var number:Int = readLine()!!.toInt()
 
-    for (x in 100..200){
-        if (x % 3==0 && x % 5==0){
-            println("$x is BeastMode")
-        }
-        if (x % 3 ==0){
-            println("$x is Mode")
-        }
-        if (x % 5 ==0){
-            println("$x is Beast")
-        }
-        else {
-            println(x)
-        }
+    if (number == null) {
+        print("please enter a valid number")
     }
+    else{
+        var result = if (number % 2 == 0){
+            println("$number is even")
+        }
+        else{
+            println("$number is odd")
+        }
+
+    }
+
 }
