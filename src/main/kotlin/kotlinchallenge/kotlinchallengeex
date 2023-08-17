@@ -12,11 +12,3 @@
     Vowel or Consonant Checker: Write a Kotlin function that takes a single character (letter) as input and determines whether it's a vowel or a consonant. Print the result.
 
 
-
-echo "# kotlin" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/erwanmark/kotlin.git
-git push -u origin main

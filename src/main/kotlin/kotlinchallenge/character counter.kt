@@ -10,9 +10,10 @@ fun CharactercountOccurence(userinput:String, chartag:Char): Int{
     return charCount
 }
 fun main(args: Array<String>) {
-
-    var datastringInput = "bragatoshious ferotious"
-    var mytargetChar = 'o'
+    println("Enter any word")
+    var datastringInput = readLine() ?: ""
+    println("Enter any letter for occurence")
+    var mytargetChar = readLine() ?.get(0) ?: ' '
     var charOccurence = CharactercountOccurence(datastringInput, mytargetChar)
     println("$mytargetChar appears $charOccurence number of times")
 }
