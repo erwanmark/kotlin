@@ -31,7 +31,6 @@ fun main(args: Array<String>) {
     var building2: Building = Apartment(type = "Studio")
     building2.openDoor()
 
-
     var building3: Building = Mansion(type = "Residential")
     building3.openDoor()
 }
